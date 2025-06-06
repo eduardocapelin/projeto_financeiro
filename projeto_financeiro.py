@@ -7,7 +7,7 @@ load_dotenv()
 
 api_key = os.getenv("api_key")
 
-url = f"https://api.telegram.org/bot{api_key}/getUpdates/"
+url = f"https://api.telegram.org/bot{api_key}/getUpdates"
 
 response = requests.get(url)
 
