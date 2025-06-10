@@ -50,8 +50,6 @@ O principal objetivo é automatizar o registro de pequenas despesas, garantindo 
 Envie mensagens no seguinte formato para o bot:
 
 49,90 Pizza PIX
-15,00 Uber Cartão
-10,00 Café Dinheiro
 
 - **Valor**: número com vírgula ou ponto  
 - **Descrição**: parte central da mensagem  
