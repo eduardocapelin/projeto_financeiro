@@ -43,7 +43,7 @@ def transformar_mensagens(df):
     
     df["valor"] = df["text"].apply(lambda x: limpar_mensagem(x)[0])
     df["descricao"] = df["text"].apply(lambda x: limpar_mensagem(x)[1])
-    df["forma_pagamento"] = df["text"].apply(lambda x: limpar_mensagem(x)[2])
+    df["forma_pagamento"] = df["text"].apply(lambda x: limpar_mensagem(x)[2].strip())
     df = df.drop(["text", "date"], axis=1)
     return df
 
