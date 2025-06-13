@@ -27,7 +27,6 @@ def ler_mensagensDF(data_result):
             "date": mensagem.get("date")
         })
     df = pd.DataFrame(dados)
-    df = df[df["message_id"] >= 21]
     return df
 
 def transformar_mensagens(df):
