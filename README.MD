@@ -2,6 +2,10 @@
 
 Este projeto foi desenvolvido para ajudar pessoas a manterem o controle de pequenos gastos do dia a dia. Muitas vezes fazemos compras pequenas que esquecemos de anotar, e no fim do mês isso pesa. Com esse código, basta enviar uma mensagem no Telegram com o valor, descrição e forma de pagamento, e os dados serão automaticamente registrados em um arquivo Excel para facilitar a análise financeira.
 
+![Telegram](Images/dados_telegram.jpg)
+
+![Excel](Images/dados_excel.png)
+
 ---
 
 ## 🎯 Objetivo
